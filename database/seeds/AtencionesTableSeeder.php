@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
+
 class AtencionesTableSeeder extends Seeder
 {
     /**
@@ -11,6 +12,6 @@ class AtencionesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+
     }
 }

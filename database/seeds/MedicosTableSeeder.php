@@ -13,6 +13,10 @@ class MedicosTableSeeder extends Seeder
      */
     public function run()
     {
-        Medico::create('')
+        Medico::create([
+            'fechaContratacion' => \Carbon\Carbon::now(),
+            'especialidad' => 'Bronco Pulmonar',
+            'valorConsulta' => 15000,
+        ]);
     }
 }
